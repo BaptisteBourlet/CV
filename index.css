@@ -1,0 +1,81 @@
+.jumbotron{
+    padding-top:200px;
+    padding-bottom:200px;
+    margin: 0px;
+}
+.rounded-circle{
+    position: relative;
+    top:-150px;
+    width:200px;
+    z-index: 100;
+}
+.titre {
+    color:whitesmoke;
+}
+strong{
+    font-size: 30px;
+}
+main{
+    border-top: 5px solid whitesmoke;
+    border-bottom: 5px solid whitesmoke;
+}
+.carousel{
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+}
+h2{
+    margin-bottom: 55px;
+    margin-top:100px;
+    color: whitesmoke;
+}
+p {
+    font-size: 1.2rem;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.profil{
+    height:0px;
+}
+footer{
+    background-color: rgb(42, 42, 42);
+    height:300px;
+}
+h3{
+    color: whitesmoke;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.logo{
+    width: 40px;
+}
+.logo_git{
+    width: 80px;
+}
+a{
+    font-size: 1.2rem;
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none!important;
+    color: whitesmoke;
+}
+a:hover{
+    color: whitesmoke;
+}
+
+
+.zoom img {
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease; 
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+.zoom:hover img {
+
+-webkit-transform:scale(1.25);
+-moz-transform:scale(1.25);
+-ms-transform:scale(1.25);
+-o-transform:scale(1.25);
+transform:scale(1.25);
+}
