@@ -1,3 +1,7 @@
+body{
+    font-family: 'Lora', serif;
+}
+
 header{
     height: 40vh;
 }
@@ -95,10 +99,59 @@ transform:scale(1.25);
     height:20px;
 }
 .parallax { 
-    background-image: url("assets/para.png");
+    background-image: url("image/para.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     /* height: 100vh; */
   }
+
+@media screen and (max-width: 1025px) {
+    header {
+      height: 26vh;
+    }
+    .caroussel{
+        height: 50vh;
+    }
+  }
+@media screen and (max-width: 769px) {
+      header{
+          height: 35vh;
+      }
+      .caroussel{
+          height: 75vh;
+      }
+  }
+@media screen and (max-width: 450px) {
+    header{
+        height: 50vh;
+    }
+    .caroussel{
+        height: 135vh;
+    }
+    .parallax{
+        padding-bottom: 20px;
+    }
+    footer{
+        height: 100%;
+    }
+}
+@media screen and (max-width: 410px) {
+    .caroussel{
+        height: 160vh;
+    }
+}
+@media screen and (max-width: 361px) {
+    .caroussel{
+        height: 175vh;
+    }
+}
+@media screen and (max-width: 321px) {
+    header{
+        height: 75vh;
+    }
+    .caroussel{
+        height: 205vh;
+    }
+}
