@@ -99,13 +99,13 @@ transform:scale(1.25);
     height:20px;
 }
 .parallax { 
-    background-image: url("image/para.png");
+    background-image: url("image/fond.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 100vh; */
-  }
+}
+
 
 @media screen and (max-width: 1025px) {
     header {
