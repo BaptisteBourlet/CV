@@ -155,3 +155,25 @@ transform:scale(1.25);
         height: 205vh;
     }
 }
+
+@media screen and (max-height: 900px){
+    .titre{
+        margin-top: -100px;
+    }
+}
+@media screen and (max-height: 680px){
+    .rounded-circle{
+        top:-250px;
+    }
+    .titre{
+        margin-top: -200px;
+    }
+}
+@media screen and (max-height: 500px){
+    .rounded-circle{
+        top:-300px;
+    }
+    .titre{
+        margin-top: -200px;
+    }
+}
